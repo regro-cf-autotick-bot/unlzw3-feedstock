@@ -1,13 +1,13 @@
 {% set name = "unlzw3" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unlzw3-{{ version }}.tar.gz
-  sha256: d037a9b6823d1a455d6de1e0258af8c0f5dbf40aba3b19cc514448e78da77062
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unlzw3-{{ version }}.tar.gz
+  sha256: ede5d928c792fff9da406f20334f9739693327f448f383ae1df1774627197bbb
 
 build:
   noarch: python
